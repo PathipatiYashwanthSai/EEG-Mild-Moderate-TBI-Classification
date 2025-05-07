@@ -1,0 +1,16 @@
+.dropzone {
+    border: 2px dashed #666;
+    padding: 1.5rem;
+    margin: 1rem auto;
+    max-width: 600px;
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+  .dropzone.active {
+    background: rgba(0, 150, 255, 0.1);
+  }
+  .file-info {
+    margin-top: 0.5rem;
+    font-style: italic;
+  }
+  
